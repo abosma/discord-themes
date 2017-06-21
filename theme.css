@@ -25,7 +25,9 @@ span:not(.spinner-item) {
 .container-iksrDt,
 .theme-dark .chat form,
 .theme-dark .channel-members,
-.guilds-wrapper .guilds {
+.guilds-wrapper .guilds,
+.scroller-fzNley,
+#friends .friends-table .friends-table-body {
     background-color: #232e33;
 }
 .flex-horizontal>.flex-spacer {
@@ -633,4 +635,34 @@ code {
 }
 .unread-23Kvxk {
     background: var(--main-color);
+}
+.friends-header, .search-bar {
+    background-color: var(--main-color) !important;
+}
+.search-bar-inner {
+    border-radius: 0px !important;
+    border: 1px solid rgba(238, 255, 255, 0.04) !important;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: var(--hover-color);
+}
+.private-channels .channel.selected a {
+    background-color: rgba(0, 150, 136, 0.1);
+    border-left: 3px solid var(--main-color);
+    border-radius: 0px;
+}
+.search-bar {
+    border-color: var(--main-color) !important;
+}
+.theme-dark #friends .friends-table .friends-table-header {
+    background-color: var(--main-color);
+}
+#friends .friends-table {
+    margin-top: -1px;
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column {
+    color: #EEFFFF;
+}
+.friends-row:hover {
+   background: rgba(0, 0, 0, 0.1) !important;
 }
