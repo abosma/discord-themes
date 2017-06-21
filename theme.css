@@ -631,3 +631,6 @@ code {
 .theme-dark .channel-textarea-inner .channel-textarea-upload {
     border-right-color: hsla(0,0%,100%,0.05);
 }
+.unread-23Kvxk {
+    background: var(--main-color);
+}
