@@ -637,7 +637,7 @@ code {
     background: var(--main-color);
 }
 .friends-header, .search-bar {
-    background-color: var(--main-color) !important;
+    background-color: #232e33;
 }
 .search-bar-inner {
     border-radius: 0px !important;
