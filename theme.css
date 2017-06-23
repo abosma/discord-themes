@@ -702,3 +702,20 @@ code {
 .theme-dark .themed-popout .footer {
     background-color: #232e33;
 }
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+    background: #232e33;
+    border-bottom: none;
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+    background: #232e33;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+}
+.theme-dark .add-friend-input-wrapper {
+    border-radius: 0px;
+    border: 1px solid rgba(238, 255, 255, 0.04);
+    background: #263238;
+}
+#friends .btn,
+.add-friend-input-wrapper .btn:disabled {
+    background-color: var(--main-color);
+}
