@@ -729,3 +729,12 @@ code {
 .badge {
     background-color: var(--hover-color);
 }
+.theme-dark .chat .jump-to-present-bar {
+    background-color: var(--main-color) !important;
+    border-radius: 0px !important;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.3);
+}
+.theme-dark .cardPrimary-ZVL9Jr,
+.theme-dark .cardPrimaryEditable-2IQ7-V {
+    background: rgba(0, 0, 0, 0.15);
+}
